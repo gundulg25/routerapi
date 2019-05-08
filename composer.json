@@ -5,12 +5,15 @@
     "authors": [
         {
             "name": "Singgih Hadi Saputra",
-            "email": "singgih@indotechsolusindo.com"
+            "email": "singgih@indotechsolusindo.com",
+            "role":"Developer"
         }
     ],
      "require": {
         "php": ">=5.4.0",
-        "ext-fileinfo": "*"
+        "ext-fileinfo": "*",
+        "illuminate/support":">=5.2 <6.0",
+        "illuminate/view":">=5.2 <6.0"
     },
      "minimum-stability": "stable"
 }
