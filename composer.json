@@ -1,7 +1,13 @@
 {
     "name": "imsolusindo/routerapi",
-    "description": "-",
+    "description": "Mikrotik RouterOS API client for your applications",
     "license": "GPL-1.0-only",
+    "keywords": [
+        "socket-client",
+        "psr-4",
+        "routeros",
+        "mikrotik"
+    ],
     "authors": [
         {
             "name": "Singgih Hadi Saputra",
@@ -12,8 +18,13 @@
      "require": {
         "php": ">=5.4.0",
         "ext-fileinfo": "*",
+        "ext-sockets": "*",
         "illuminate/support":">=5.2 <6.0",
         "illuminate/view":">=5.2 <6.0"
-    },
-     "minimum-stability": "stable"
+    },   
+    "autoload":{  
+      "psr-4":{  
+         "Imsolusindo\\Routerapi\\":"./src"
+      }
+   },
 }
