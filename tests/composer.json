@@ -1,0 +1,33 @@
+﻿{  
+   "name":"imsolusindo/routerapi",
+   "description":"Router Api Remote Mikrotik",
+   "keywords":[  
+      "laravel",
+      "router",
+      "os",
+      "mikrotik",
+      "remote"
+   ],
+   "license":"IMS",
+   "authors":[  
+      {  
+         "name":"Singgih Hadi Saputra",
+         "email":"singgih@indotechsolusindo.com",
+         "homepage":"https://indotechsolusindo.com",
+         "role":"Developer"
+      }
+   ],
+   "require":{  
+      "php":">=5.5.9",
+      "illuminate/support":">=5.2 <6.0",
+      "illuminate/view":">=5.2 <6.0"
+   },
+   "require-dev":{  
+      "phpunit/phpunit":"~4.0"
+   },
+   "autoload":{  
+      "psr-4":{  
+         "imsolusindo\\routerapi\\":"./src"
+      }
+   }
+}
